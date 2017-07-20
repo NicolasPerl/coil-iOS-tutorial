@@ -13,53 +13,69 @@ import UIKit
 class Onboarding: UIPageViewController {
     
     override func viewDidLoad() {
-        setViewControllers([getStepZero()], direction: .forward, animated: true)
+        setViewControllers([getWelcome()], direction: .forward, animated: true)
         
         dataSource = self
         
-        view.backgroundColor = UIColor.darkGray
+        view.backgroundColor = UIColor.gray
     }
 
     
-    func getStepZero() -> StepZero {
-        return storyboard?.instantiateViewController(withIdentifier: "StepZero") as! StepZero
+    func getWelcome() -> Welcome {
+        return storyboard?.instantiateViewController(withIdentifier: "Welcome") as! Welcome
     }
     
-    func getStepOne() -> StepOne {
-        return storyboard!.instantiateViewController(withIdentifier: "StepOne") as! StepOne
+    func getCreateCoil() -> CreateCoil {
+        return storyboard!.instantiateViewController(withIdentifier: "CreateCoil") as! CreateCoil
     }
     
-    func getStepTwo() -> StepTwo {
-        return storyboard!.instantiateViewController(withIdentifier: "StepTwo") as! StepTwo
+    func getTutoring() -> Tutoring {
+        return storyboard!.instantiateViewController(withIdentifier: "Tutoring") as! Tutoring
+    }
+    
+    func getClassBoard() -> ClassBoard {
+        return storyboard!.instantiateViewController(withIdentifier: "ClassBoard") as! ClassBoard
+    }
+    
+    func getGurus() -> Gurus {
+        return storyboard!.instantiateViewController(withIdentifier: "Gurus") as! Gurus
     }
     
 }
 
 extension Onboarding: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        if viewController.isKind(of: StepZero.self) {
+        if viewController.isKind(of: Welcome.self) {
             return nil
-        } else if viewController.isKind(of: StepOne.self) {
-            return getStepZero()
+        } else if viewController.isKind(of: CreateCoil.self) {
+            return getWelcome()
+        } else if viewController.isKind(of: Tutoring.self) {
+            return getCreateCoil()
+        }else if viewController.isKind(of: ClassBoard.self){
+            return getTutoring()
         } else {
-            return getStepOne()
+            return getClassBoard()
         }
         
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        if viewController.isKind(of: StepZero.self) {
-            return getStepOne()
-        } else if viewController.isKind(of: StepOne.self) {
-            return getStepTwo()
-        } else {
+        if viewController.isKind(of: Welcome.self) {
+            return getCreateCoil()
+        } else if viewController.isKind(of: CreateCoil.self) {
+            return getTutoring()
+        } else if viewController.isKind(of: Tutoring.self) {
+            return getClassBoard()
+        }else if viewController.isKind(of: ClassBoard.self) {
+            return getGurus()
+        }else {
             return nil
         }
         
     }
     
     func presentationCount(for pageViewController: UIPageViewController) -> Int {
-        return 3
+        return 5
     }
     
     func presentationIndex(for pageViewController: UIPageViewController) -> Int {

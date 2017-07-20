@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7597849B1F2037EE001D9A43 /* ClassBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597849A1F2037EE001D9A43 /* ClassBoard.swift */; };
+		7597849D1F20399D001D9A43 /* Gurus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7597849C1F20399D001D9A43 /* Gurus.swift */; };
 		75F3562E1F1FB12500E6D939 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F3562D1F1FB12500E6D939 /* AppDelegate.swift */; };
 		75F356301F1FB12500E6D939 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F3562F1F1FB12500E6D939 /* ViewController.swift */; };
 		75F356331F1FB12500E6D939 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F356311F1FB12500E6D939 /* Main.storyboard */; };
 		75F356351F1FB12500E6D939 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75F356341F1FB12500E6D939 /* Assets.xcassets */; };
 		75F356381F1FB12500E6D939 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F356361F1FB12500E6D939 /* LaunchScreen.storyboard */; };
-		75F356401F1FB21900E6D939 /* StepZero.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F3563F1F1FB21900E6D939 /* StepZero.swift */; };
+		75F356401F1FB21900E6D939 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F3563F1F1FB21900E6D939 /* Welcome.swift */; };
 		75F356421F1FB2DA00E6D939 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F356411F1FB2DA00E6D939 /* Onboarding.swift */; };
-		75F356441F1FB63C00E6D939 /* StepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F356431F1FB63C00E6D939 /* StepOne.swift */; };
-		75F356461F1FB65D00E6D939 /* StepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F356451F1FB65D00E6D939 /* StepTwo.swift */; };
+		75F356441F1FB63C00E6D939 /* CreateCoil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F356431F1FB63C00E6D939 /* CreateCoil.swift */; };
+		75F356461F1FB65D00E6D939 /* Tutoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75F356451F1FB65D00E6D939 /* Tutoring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7597849A1F2037EE001D9A43 /* ClassBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassBoard.swift; sourceTree = "<group>"; };
+		7597849C1F20399D001D9A43 /* Gurus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gurus.swift; sourceTree = "<group>"; };
 		75F3562A1F1FB12500E6D939 /* coil-iOS-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coil-iOS-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F3562D1F1FB12500E6D939 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75F3562F1F1FB12500E6D939 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,10 +30,10 @@
 		75F356341F1FB12500E6D939 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75F356371F1FB12500E6D939 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		75F356391F1FB12500E6D939 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75F3563F1F1FB21900E6D939 /* StepZero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepZero.swift; sourceTree = "<group>"; };
+		75F3563F1F1FB21900E6D939 /* Welcome.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		75F356411F1FB2DA00E6D939 /* Onboarding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
-		75F356431F1FB63C00E6D939 /* StepOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepOne.swift; sourceTree = "<group>"; };
-		75F356451F1FB65D00E6D939 /* StepTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepTwo.swift; sourceTree = "<group>"; };
+		75F356431F1FB63C00E6D939 /* CreateCoil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateCoil.swift; sourceTree = "<group>"; };
+		75F356451F1FB65D00E6D939 /* Tutoring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutoring.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +72,12 @@
 				75F356341F1FB12500E6D939 /* Assets.xcassets */,
 				75F356361F1FB12500E6D939 /* LaunchScreen.storyboard */,
 				75F356391F1FB12500E6D939 /* Info.plist */,
-				75F3563F1F1FB21900E6D939 /* StepZero.swift */,
 				75F356411F1FB2DA00E6D939 /* Onboarding.swift */,
-				75F356431F1FB63C00E6D939 /* StepOne.swift */,
-				75F356451F1FB65D00E6D939 /* StepTwo.swift */,
+				75F3563F1F1FB21900E6D939 /* Welcome.swift */,
+				75F356431F1FB63C00E6D939 /* CreateCoil.swift */,
+				75F356451F1FB65D00E6D939 /* Tutoring.swift */,
+				7597849A1F2037EE001D9A43 /* ClassBoard.swift */,
+				7597849C1F20399D001D9A43 /* Gurus.swift */,
 			);
 			path = "coil-iOS-tutorial";
 			sourceTree = "<group>";
@@ -149,12 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75F356461F1FB65D00E6D939 /* StepTwo.swift in Sources */,
+				75F356461F1FB65D00E6D939 /* Tutoring.swift in Sources */,
+				7597849B1F2037EE001D9A43 /* ClassBoard.swift in Sources */,
 				75F356301F1FB12500E6D939 /* ViewController.swift in Sources */,
 				75F3562E1F1FB12500E6D939 /* AppDelegate.swift in Sources */,
-				75F356401F1FB21900E6D939 /* StepZero.swift in Sources */,
+				7597849D1F20399D001D9A43 /* Gurus.swift in Sources */,
+				75F356401F1FB21900E6D939 /* Welcome.swift in Sources */,
 				75F356421F1FB2DA00E6D939 /* Onboarding.swift in Sources */,
-				75F356441F1FB63C00E6D939 /* StepOne.swift in Sources */,
+				75F356441F1FB63C00E6D939 /* CreateCoil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +326,7 @@
 				75F3563E1F1FB12500E6D939 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

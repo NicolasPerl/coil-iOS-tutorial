@@ -9,6 +9,6 @@
 import Foundation
 import UIKit
 
-class StepTwo: UIViewController {
+class Tutoring: UIViewController {
     
 }
